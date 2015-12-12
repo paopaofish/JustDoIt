@@ -1,9 +1,5 @@
 
-#这个文档，这个系列直接从
-#[GitCafe]: http://gitcafe.com/riku/Markdown-Syntax-CN/  
-#@riku那里直接copy过来的
-
-#不用于任何商业用途，仅仅是个人学习。如有侵权，请告知，将会尽快删除。
+#本文档来自：[@riku](http://gitcafe.com/riku/Markdown-Syntax-CN/)侵删
 ---
 简介：
 
