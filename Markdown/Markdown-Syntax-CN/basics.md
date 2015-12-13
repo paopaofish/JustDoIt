@@ -1,5 +1,5 @@
 
-Markdown: Basics （快速入门） / ([点击查看完整语法说明](./index.html))
+Markdown: Basics （快速入门） / ([点击查看完整语法说明](./syntax.md))
 ================
 
 Getting the Gist of Markdown's Formatting Syntax
