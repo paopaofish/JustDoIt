@@ -1,0 +1,50 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: parameter-monitor-platform
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/monitor_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: root123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  
+  security:
+    user:
+      name: admin
+      password: admin123
+
+# IoTDB Configuration
+iotdb:
+  host: localhost
+  port: 6667
+  username: root
+  password: root
+
+# OPC UA Configuration
+opcua:
+  endpoint: opc.tcp://localhost:4840
+  security-policy: None
+  message-security-mode: None
+
+# Monitoring Configuration
+monitoring:
+  default-interval: 5000
+  max-history-points: 10000
+
+# Algorithm Configuration
+algorithm:
+  prediction-window: 60
+  anomaly-threshold: 2.0
