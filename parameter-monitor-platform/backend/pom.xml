@@ -80,25 +80,25 @@
         <dependency>
             <groupId>org.eclipse.milo</groupId>
             <artifactId>milo-core</artifactId>
-            <version>${opc-ua.version}</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.eclipse.milo</groupId>
             <artifactId>milo-stack-core</artifactId>
-            <version>${opc-ua.version}</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.eclipse.milo</groupId>
             <artifactId>milo-stack-server</artifactId>
-            <version>${opc-ua.version}</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.eclipse.milo</groupId>
             <artifactId>milo-stack-client</artifactId>
-            <version>${opc-ua.version}</version>
+            <version>1.0.0</version>
         </dependency>
 
         <!-- Lombok -->
